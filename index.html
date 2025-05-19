@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jenil's Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                          <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+<section class="home bd-grid" id="home">
+    <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Jenil</span><br> Data Analyst</h1>
+
+        <!-- Button Section -->
+        <div style="display: flex; gap: 15px; margin-top: 20px;">
+            <!-- View Resume Button -->
+            <a href="assets/resume.pdf" target="_blank" class="button" style="background-color: #000; color: #fff; padding: 10px 20px; border-radius: 10px; text-decoration: none;">View Resume</a>
+
+            <!-- Contact Button -->
+            <a href="mailto:jgohel9902@gmail.com" class="button" style="background-color: #000; color: #fff; padding: 10px 20px; border-radius: 10px; text-decoration: none;">Contact</a>
+        </div>
+    </div>
+
+    <div class="home__social">
+        <a href="https://www.linkedin.com/in/jgohel9902" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/jgohel9902" class="home__social-icon"><i class='bx bxl-github'></i></a>
+        <a href="mailto:jgohel9902@gmail.com" class="home__social-icon"><i class='bx bxl-gmail'></i></a>
+    </div>
+
+    <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+            </g>
+        </svg>
+    </div>
+</section>
+
+
+          <!--===== ABOUT =====-->
+<section class="about section" id="about" style="padding: 60px;">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">About Me</h2>
+
+    <div class="about__container" style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap;">
+        <!-- About Text -->
+        <div class="about__text-container" style="flex: 1; min-width: 300px; max-width: 500px; text-align: left;">
+            <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 20px;">
+                A detail-oriented and results-driven Computer Programming and Analysis student at Conestoga College, specializing in data analysis, frontend development, and backend technologies. Focused on developing impactful digital solutions through React, TypeScript, and data visualization tools. Skilled in creating intuitive user interfaces and data-driven applications while maintaining a strong emphasis on scalability, efficiency, and user experience.
+            </p>
+        </div>
+
+        <!-- About Image -->
+        <div class="about__img" style="width: 250px; height: 250px; overflow: hidden; border-radius: 50%;">
+            <img src="assets/img/profile.jpg" alt="Profile Image" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="education__container" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 40px; gap: 20px;">
+        <!-- Single Education Card -->
+        <div class="education__card" style="width: 250px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center;">
+            <img src="assets/img/college.jpg" alt="College Icon" style="width: 40px; height: 40px; margin-bottom: 10px;">
+            <h3 style="font-size: 1.2rem; font-weight: bold;">Conestoga College</h3>
+            <p style="font-size: 0.95rem;">Computer Programming and Analysis</p>
+            <p style="font-size: 0.9rem;">Sep 2023 - April 2026</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">Skills</h2>
+    
+    <div class="skills__container" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+        <!-- Data Analysis -->
+        <div class="skills__category" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 90%; max-width: 800px; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">Data Analysis</h3>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/powerbi.png" alt="PowerBI" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Power BI</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/excel1.png" alt="excel" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">MS Excel</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/sql.jpeg" alt="SQL" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">SQL</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/azure.png" alt="azure" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Azure</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/py.png" alt="Python" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Python</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skills__category" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 90%; max-width: 800px; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">Frontend</h3>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/html.jpg" alt="HTML" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">HTML</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/css.jpeg" alt="CSS" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">CSS</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/js.jpeg" alt="JavaScript" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">JavaScript</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/reactjs.png" alt="React" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">React.js</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/ts.jpg" alt="typescript" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">TypeScript</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills__category" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 90%; max-width: 800px; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">Backend</h3>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/nodejs2.webp" alt="Node.js" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Node.js</p>
+                </div>
+                
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/psql1.jpg" alt="PostgreSQL" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">PostgreSQL</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- UX/UI -->
+        <div class="skills__category" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 90%; max-width: 800px; display: flex; flex-direction: column; align-items: center;">
+            <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">UX/UI</h3>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/figma.png" alt="Figma" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Figma</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/xd.jpeg" alt="Adobe XD" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Adobe XD</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/sketch.jpeg" alt="Sketch" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Sketch</p>
+                </div>
+                <div class="skill-item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="assets/img/tcss.png" alt="Tailwind CSS" style="width: 80px; height: 80px;">
+                    <p style="text-align: center; margin-top: 5px;">Tailwind CSS</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!--===== WORK EXPERIENCE =====-->
+<section class="work section" id="work" style="padding: 60px;">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">Work Experience</h2>
+
+    <div class="work__container" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+        <!-- Work Item 1 -->
+        <div class="work__item" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 250px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; overflow: hidden;">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/img/amazon.png" alt="Amazon" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            <h3 style="font-weight: bold; margin: 10px 0;">Problem Solving Analyst - Amazon</h3>
+            <span style="font-weight: bold; margin-bottom: 10px;">May 2025 - Present</span>
+            <div style="overflow-y: auto; height: 100px; padding-right: 10px;">
+                <p style="line-height: 1.6; margin: 0;">
+                    - Investigated and resolved package flow issues.<br>
+                    - Re-routed misallocated packages.<br>
+                    - Handled defective inventory.<br>
+                    - Supported operational flow during high-volume periods.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work Item 2 -->
+        <div class="work__item" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 250px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; overflow: hidden;">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/img/outlier.jpeg" alt="Outlier" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            <h3 style="font-weight: bold; margin: 10px 0;">AI Content Evaluator - Outlier</h3>
+            <span style="font-weight: bold; margin-bottom: 10px;">Feb 2025 - April 2025</span>
+            <div style="overflow-y: auto; height: 100px; padding-right: 10px;">
+                <p style="line-height: 1.6; margin: 0;">
+                    - Evaluated and improved AI-generated content.<br>
+                    - Designed prompt variations.<br>
+                    - Collaborated with AI researchers.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work Item 3 -->
+        <div class="work__item" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 250px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; overflow: hidden;">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/img/amazon.png" alt="Amazon" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            <h3 style="font-weight: bold; margin: 10px 0;">Problem Solving Analyst - Amazon</h3>
+            <span style="font-weight: bold; margin-bottom: 10px;">Nov 2024 - Jan 2025</span>
+            <div style="overflow-y: auto; height: 100px; padding-right: 10px;">
+                <p style="line-height: 1.6; margin: 0;">
+                    - Investigated and resolved package flow issues.<br>
+                    - Re-routed misallocated packages.<br>
+                    - Handled defective inventory.<br>
+                    - Supported operational flow during high-volume periods.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work Item 4 -->
+        <div class="work__item" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 250px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; overflow: hidden;">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/img/amazon.png" alt="Amazon" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            <h3 style="font-weight: bold; margin: 10px 0;">Quality Inspection Associate - Amazon</h3>
+            <span style="font-weight: bold; margin-bottom: 10px;">Feb 2024 - Aug 2024</span>
+            <div style="overflow-y: auto; height: 100px; padding-right: 10px;">
+                <p style="line-height: 1.6; margin: 0;">
+                    - Conducted quality checks on packages.<br>
+                    - Matched system data with inventory.<br>
+                    - Maintained workflow during peak periods.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work Item 5 -->
+        <div class="work__item" style="border: 1px solid #ccc; border-radius: 15px; padding: 20px; width: 250px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; text-align: center; overflow: hidden;">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <img src="assets/img/amazon.png" alt="Amazon" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            <h3 style="font-weight: bold; margin: 10px 0;">Problem Solving Associate - Amazon</h3>
+            <span style="font-weight: bold; margin-bottom: 10px;">Nov 2023 - Jan 2024</span>
+            <div style="overflow-y: auto; height: 100px; padding-right: 10px;">
+                <p style="line-height: 1.6; margin: 0;">
+                    - Investigated and resolved package flow issues.<br>
+                    - Re-routed misallocated packages.<br>
+                    - Handled defective inventory.<br>
+                    - Supported operational flow during high-volume periods.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--===== PROJECTS =====-->
+<section class="projects section" id="projects">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">Projects</h2>
+
+    <!-- Software Development Section -->
+    <div class="projects__category" style="margin-bottom: 40px;">
+        <h3 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 20px;">Software Development</h3>
+        <div class="projects__container" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+
+            <!-- BiteBuddy - Restaurant Finder App -->
+            <div class="project-card" style="width: 250px; padding: 20px; border: 1px solid #ddd; border-radius: 15px; background-color: #fafafa; text-align: center;">
+                <img src="assets/img/bb1.png" alt="BiteBuddy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+                <h3 style="margin-top: 15px; font-size: 1.2rem; font-weight: bold;">BiteBuddy</h3>
+                
+                <div style="display: flex; justify-content: center; gap: 10px; margin: 10px 0;">
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">Dart</span>
+                    <span class="skill-tag">SQLite</span>
+                </div>
+
+                <p style="font-size: 0.9rem; color: #555;">Restaurant Finder App with Google Places API and Offline Support</p>
+                <a href="https://github.com/jgohel9902/BiteBuddy" target="_blank" class="view-link">View Code</a>
+            </div>
+
+            <!-- React Todo List -->
+            <div class="project-card" style="width: 250px; padding: 20px; border: 1px solid #ccc; border-radius: 15px; text-align: center; background-color: #fafafa;">
+                <img src="assets/img/todo.png" alt="React Todo" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+                <h3 style="margin-top: 15px; font-weight: bold;">React Todo List</h3>
+
+                <div class="skills" style="display: flex; justify-content: center; gap: 10px; margin: 10px 0;">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">CSS</span>
+                </div>
+
+                <p style="font-size: 0.9rem; color: #555;">Interactive Todo List app with state management using React Hooks.</p>
+                <a href="https://github.com/jgohel9902/react-todo-list" target="_blank" class="view-link">View Code</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Data Analysis Section -->
+    <div class="projects__category" style="margin-bottom: 40px;">
+        <h3 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 20px;">Data Analysis</h3>
+        <div class="projects__container" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+
+            <!-- Healthcare Analytics -->
+            <div class="project-card" style="width: 250px; padding: 20px; border: 1px solid #ddd; border-radius: 15px; background-color: #fafafa; text-align: center;">
+                <img src="assets/img/ha.png" alt="Healthcare Analytics" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+                <h3 style="margin-top: 15px; font-size: 1.2rem; font-weight: bold;">Healthcare Analytics</h3>
+
+                <div style="display: flex; justify-content: center; gap: 10px; margin: 10px 0;">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Power BI</span>
+                </div>
+
+                <p style="font-size: 0.9rem; color: #555;">End-to-end analytics for patient data using SQL, Python, and Power BI.</p>
+                <a href="https://github.com/jgohel9902/Comprehensive-Healthcare-Analytics" target="_blank" class="view-link">View Project</a>
+            </div>
+
+            <!-- Property Analytics -->
+            <div class="project-card">
+                <img src="assets/img/property.webp" alt="Property Analytics" class="project-img">
+                <h3>Property Analytics</h3>
+                <div class="skills">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Excel</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Power BI</span>
+                </div>
+                <p>Analyzed U.S. Inventory of Owned and Leased Properties with SQL, Python, and Power BI.</p>
+                <a href="https://github.com/jgohel9902/Property-Analytics-U.S.-Owned-and-Leased-Properties" target="_blank" class="view-link">View Project</a>
+            </div>
+
+        </div>
+        
+
+    </div>
+     <!-- UX/UI Design Section -->
+    <div class="projects__category" style="margin-bottom: 40px;">
+        <h3 style="text-align: center; font-size: 1.5rem; font-weight: bold; margin-bottom: 20px;">UX/UI Design</h3>
+        <div class="projects__container" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+
+            <!-- ReadyClo - Personalized Clothing App -->
+            <div class="project-card">
+                <img src="assets/img/readyclo.webp" alt="ReadyClo" class="project-img">
+                <h3>ReadyClo - Clothing App</h3>
+                <div class="skills">
+                    <span class="skill-tag">UX Research</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Prototyping</span>
+                </div>
+                <p>Mobile app for personalized clothing recommendations with a user-centered design approach.</p>
+                <a href="https://tar-find-629.notion.site/ReadyClo-Case-Study-17d35f46f6f48022b63bd71754be3a10" target="_blank" class="view-link">View Project</a>
+            </div>
+
+        </div>
+</section>
+
+<!--===== CERTIFICATIONS =====-->
+<section class="certifications section" id="certifications">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">Certifications</h2>
+
+    <div class="certifications__container" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+
+        <!-- Google UX Design -->
+        <div class="certification-card">
+            <img src="assets/img/google.jpeg" alt="Google" class="certification-logo">
+            <div class="certification-content">
+                <h3>Google UX Design</h3>
+                <p>Issued Dec 2024</p>
+                <p>Credential ID: 5OPPRWU4887J</p>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/5OPPRWU4887J" target="_blank" class="credential-link">Show Credential</a>
+            </div>
+        </div>
+
+        <!-- Excel Basics for Data Analysis -->
+        <div class="certification-card">
+            <img src="assets/img/ibm.jpg" alt="IBM" class="certification-logo">
+            <div class="certification-content">
+                <h3>Excel Basics for Data Analysis</h3>
+                <p>Issued Nov 2024</p>
+                <p>Credential ID: E9ZWZU7P0PVT</p>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/E9ZWZU7P0PVT" target="_blank" class="credential-link">Show Credential</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+           <!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <h2 class="section-title" style="text-align: center; font-size: 2rem; font-weight: bold;">Contact</h2>
+
+    <div class="contact__container bd-grid" style="display: flex; justify-content: center; align-items: center;">
+        <form action="" class="contact__form" style="width: 400px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+            <input type="text" placeholder="Name" class="contact__input" style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <input type="email" placeholder="Email" class="contact__input" style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <textarea placeholder="Message" class="contact__input" style="width: 100%; padding: 10px; height: 100px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+            
+            <button type="submit" class="contact__button" style="width: 100%; padding: 10px; background-color: #4e73df; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                Submit
+            </button>
+        </form>
+    </div>
+</section>
+
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Jenil</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/share/1C5QWrRbHU/?mibextid=wwXIfr" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/itstherealjenil/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/jgohel9902?s=21" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Copyright 2025
+                <br>
+                Jenil's Portfolio. All rights reserved.
+            </p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
