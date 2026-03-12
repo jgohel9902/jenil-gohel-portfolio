@@ -519,8 +519,8 @@ img {
     color: #333;
     max-width: 100%;
     text-align: center;
-    white-space: nowrap;  /* Prevents wrapping */
-    overflow: hidden;
+    white-space: normal;  /* Prevents wrapping */
+    overflow: visible;
     display: inline-block;
     margin-bottom: 5px;
 }
@@ -598,4 +598,42 @@ img {
 
 .credential-link:hover {
     color: #0056b3;
+}
+/*===== DATA ANALYTICS DASHBOARDS =====*/
+.dashboard__container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#dashboards .project-card {
+    width: 250px;
+    min-height: 430px;
+}
+
+#dashboards .project-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--second-color);
+}
+
+#dashboards .project-card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+#dashboards .view-link {
+    margin-top: 14px;
 }
